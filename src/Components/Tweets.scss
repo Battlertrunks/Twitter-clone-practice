@@ -1,0 +1,99 @@
+@import "../stylesColor.scss";
+
+.Tweets .individual-tweet .link {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100vw;
+  padding: 1em 0;
+  border-bottom: 1px solid $BorderColor;
+}
+
+.Tweets .individual-tweet .link {
+  color: $White;
+}
+
+.Tweets .individual-tweet:nth-child(1) {
+  border-top: 1px solid $BorderColor;
+}
+
+.Tweets img {
+  width: 3em;
+  border-radius: 50%;
+  margin: 0 1em;
+}
+
+.Tweets .content-container {
+  overflow: hidden;
+}
+
+.Tweets .user-info-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Tweets .user-info-container div {
+  flex: 0.5;
+  max-width: 5em;
+  overflow-wrap: break-word;
+}
+
+.Tweets .user-info-container h2,
+.Tweets .user-info-container h3 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+}
+
+.Tweets h2 {
+  font-size: 0.9rem;
+}
+
+.Tweets .user-info-container h3 {
+  color: $TweetIcon;
+  font-weight: 400;
+  font-size: 0.85rem;
+  margin-left: 0.5em;
+}
+
+.Tweets .user-info-container .date-dots-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1em;
+  min-width: 7em;
+  color: $TweetIcon;
+}
+
+.Tweets .user-info-container p {
+  font-size: 0.85rem;
+  text-align: right;
+  margin: 0 0.5em;
+}
+
+.Tweets .description-interaction-container {
+  margin-right: 1.5em;
+}
+
+.Tweets .interactions-container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1em;
+}
+
+.Tweets .description {
+  line-height: 1.25em;
+}
+
+.Tweets .interactions-container li {
+  display: flex;
+  margin-top: 1em;
+  align-items: center;
+  color: $TweetIcon;
+}
+
+.Tweets .interactions-container li p {
+  margin-left: 0.5em;
+  font-size: 0.85rem;
+}

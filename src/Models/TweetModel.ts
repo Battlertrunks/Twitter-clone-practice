@@ -9,4 +9,5 @@ export default interface TweetModel {
   retweetAmount: number;
   likes: number;
   retweetedBy?: string;
+  key?: number;
 }
