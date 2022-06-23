@@ -1,9 +1,14 @@
-import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
+import Header from "./Components/Header";
+import Tweets from "./Components/Tweets";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <main className="App">
+      <Header />
+      <Tweets />
+    </main>
+  );
 }
 
 export default App;

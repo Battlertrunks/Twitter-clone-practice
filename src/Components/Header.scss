@@ -1,0 +1,33 @@
+@import "../stylesColor.scss";
+
+.Header {
+  padding: 0.5em 1em;
+}
+
+.Header nav ul,
+.Header .profile-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.Header .profile-title-container h1 {
+  margin: 0 1.5em;
+  font-size: 1.05rem;
+  font-weight: 800;
+}
+
+.Header nav ul {
+  justify-content: space-between;
+}
+
+.Header img {
+  width: 2em;
+  border-radius: 50%;
+}
+
+.Header button {
+  border: none;
+  background-color: transparent;
+  color: $White;
+  font-size: 1.05rem;
+}
