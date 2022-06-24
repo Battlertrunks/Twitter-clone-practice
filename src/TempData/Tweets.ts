@@ -13,6 +13,7 @@ const tweets: TweetModel[] = [
     retweetAmount: 3,
     likes: 24,
     key: 1,
+    comments: [],
   },
   {
     profileImg: profileImg1,
@@ -26,6 +27,7 @@ const tweets: TweetModel[] = [
     retweetAmount: 20,
     likes: 57,
     key: 2,
+    comments: [],
   },
   {
     profileImg: profileImg1,
@@ -38,6 +40,7 @@ const tweets: TweetModel[] = [
     retweetAmount: 75,
     likes: 155,
     key: 3,
+    comments: [],
   },
   {
     profileImg: profileImg1,
@@ -51,6 +54,7 @@ const tweets: TweetModel[] = [
     retweetAmount: 75,
     likes: 155,
     key: 4,
+    comments: [],
   },
 ];
 
